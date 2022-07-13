@@ -1,0 +1,7 @@
+{
+  "name": "Patam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
