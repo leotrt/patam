@@ -1,0 +1,40 @@
+.summary-inner {
+    padding-top: 30px;
+}
+
+.summary-content {
+    display: flex;
+    flex: 1;
+}
+
+.summary-content .wrapper {
+    padding: 3vh 4vw;
+    flex-direction: column;
+    width: 100%;
+}
+
+.summary-item {
+    display: flex;
+    font-size: 1.4rem;
+    padding: 10px;
+    gap: 2vw;
+    border-radius: 4px;
+    align-items: end;
+}
+
+.summary-item .spacer {
+    flex: 1;
+    border-bottom: 1px dashed #666;
+}
+
+.summary-label {
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    color: #600857;
+}
+
+.summary-value {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+}

@@ -1,0 +1,31 @@
+.calendar-ctr {
+    height: 100%;
+    width: 100vw;
+}
+
+.month-swiper {
+    height: 100%;
+}
+
+.calendar-title-ctr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    gap: 10px;
+    height: 8vh;
+    width: 100%;
+    padding-inline: 10px;
+    /*background: #fff;*/
+    /*box-shadow: 2px 2px 5px #d0d0d0, -2px -2px 5px #ffffff;*/
+}
+
+.calendar-title-ctr ion-button {
+    --background: #eaeaea;
+    box-shadow: 2px 2px 5px #d0d0d0, -2px -2px 5px #ffffff;
+    border-radius: 20px;
+}
+
+.calendar-title {
+    text-transform: uppercase;
+}

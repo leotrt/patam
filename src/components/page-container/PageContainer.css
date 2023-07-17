@@ -1,0 +1,14 @@
+ion-header ion-title {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.ion-content {
+    padding-top: 32px;
+    height: 100%;
+}
+
+ion-header {
+    padding: 20px;
+    background: #fff;
+}

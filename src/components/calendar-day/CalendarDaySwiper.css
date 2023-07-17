@@ -1,0 +1,126 @@
+.paid-days {
+    height: 75%;
+}
+
+.paid-day {
+    min-width: 50vw;
+    border-radius: 30px;
+    min-height: 28vh;
+    background: #d57fa9;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px #c4c4c4, -4px -4px 10px #ffeaf4;
+}
+
+.paid-day.inactive {
+    background: #483a4c;
+}
+
+.paid-day.edited {
+    background: #5bb3af;
+}
+
+.paid-day.loading {
+    visibility: hidden;
+}
+
+.paid-day h3 {
+    font-size: 38px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.paid-day-info-ctr {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    padding: 16px 0;
+}
+
+.paid-day-info {
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.paid-day-info-ctr .inner-wrapper {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    gap: 3vh;
+    flex-direction: column;
+}
+
+.paid-day-info.pto,
+.paid-day-info.out,
+.paid-day-info.bank {
+    color: #aaa;
+    background: #f4f4f4;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.paid-day-info.pto.emphasized {
+    background: #c0f6de;
+    color: #138b03;
+}
+
+.paid-day-info.out.emphasized {
+    background: #f6c0c0;
+    color: #8b0303;
+}
+
+.paid-day-info.bank.emphasized {
+    background: #c0f6f2;
+    color: #1c7f77;
+}
+
+.settings-modal-header {
+    background: #E4E7E8;
+}
+
+.settings-modal-content {
+    --padding-top: 0;
+    --background: #E4E7E8;
+}
+
+.setting-wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    padding: 0 5vw;
+    gap: 3vw;
+}
+
+.pto-wrapper {
+    --background: transparent;
+    --padding-top: 10px;
+    font-size: 3em;
+}
+
+.pto-wrapper span {
+    font-size: 2rem;
+}
+
+.hour-range-label {
+    font-size: 1rem;
+    width: 14vw;
+    white-space: break-spaces;
+    overflow-wrap: break-word;
+    text-align: center;
+}

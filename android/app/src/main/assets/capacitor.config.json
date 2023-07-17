@@ -1,0 +1,6 @@
+{
+	"appId": "io.ailete.patam",
+	"appName": "Patam",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
